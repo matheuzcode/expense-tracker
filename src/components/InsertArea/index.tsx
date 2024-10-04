@@ -76,7 +76,7 @@ export const InsertArea = ({onAdd}: Props) => {
 			</C.InputLabel>
 			<C.InputLabel>
 				<C.Title>Valor</C.Title>
-				<C.Input type="number" value={valueField} onChange={e => setValueField(parseFloat(e.target.value))}></C.Input>	
+				<C.Input type="number" min="0" value={valueField} onChange={e => setValueField(parseFloat(e.target.value))}></C.Input>	
 			</C.InputLabel>
 			<C.InputLabel>
 			 	<C.Title>&nbsp;</C.Title>
